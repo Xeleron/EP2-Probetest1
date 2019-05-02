@@ -1,6 +1,6 @@
 // This class can be modified and is for testing your solution.
 // Modifications will NOT be reviewed or assessed.
-public class TestApplication {
+public class PraxisApplication {
 
     public static void main(String[] args) {
 
