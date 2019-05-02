@@ -15,7 +15,7 @@ public class Monom {
     }
 
     // Adds the monom 'm' to this monom, if both monoms have the same degree.
-    // In this case this polynom's coefficient is replaced by the sum of this polynom's
+    // In this case this monom's coefficient is replaced by the sum of this monom's
     // coefficient and the coefficient of 'm'. In this case the method returns 'true'.
     // If 'm' has not the same degree as 'this', the method has no effect and
     // returns 'false'.

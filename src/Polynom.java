@@ -2,6 +2,7 @@
 // Polynom uses a binary search tree to store its monoms. The degree of the monom is the key.
 // A specific degree exists at most once in the polynom.
 // TODO: define further classes for the implementation of the binary search tree, if needed
+
 public class Polynom {
 
     //TODO: declare variables
@@ -16,7 +17,7 @@ public class Polynom {
     // Adds the monom specified by 'coeff' and 'degree' to this polynom, if coeff != 0,
     // otherwise 'add' has no effect.
     // If the polynom already has a monom of the same degree, no new monom is added, instead
-    // the coefficient of the monom is modified accordingly.
+    // the coefficient of the monom is modified accordingly ('combine' is called).
     public void add(int coeff, int degree) {
         // TODO: implement this method
     }
