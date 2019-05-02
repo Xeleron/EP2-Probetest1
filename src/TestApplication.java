@@ -1,7 +1,5 @@
-/*
-This class can be modified and is for testing your solution.
-Modifications will NOT be reviewed or assessed.
-*/
+// This class can be modified and is for testing your solution.
+// Modifications will NOT be reviewed or assessed.
 public class TestApplication {
 
     public static void main(String[] args) {

@@ -2,7 +2,6 @@
 // Polynom uses a binary search tree to store its monoms. The degree of the monom is the key.
 // A specific degree exists at most once in the polynom.
 // TODO: define further classes for the implementation of the binary search tree, if needed
-
 public class Polynom {
 
     //TODO: declare variables
