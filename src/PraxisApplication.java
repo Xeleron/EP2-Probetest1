@@ -9,6 +9,12 @@ public class PraxisApplication {
         System.out.println(m.eval(-5)); // 75
         System.out.println(m.eval(0)); // 0
 
+        System.out.println(m.combine(new Monom(-1,2))); // true
+        System.out.println(m); // 2*x^2
+
+        System.out.println(m.combine(new Monom(-1,3))); // false
+        System.out.println(m); // 2*x^2
+
         Polynom p1 = new Polynom(new int[] {2,0,3,1});
         Polynom p2 = new Polynom(new int[] {0,0,3,-1});
 
@@ -30,4 +36,3 @@ public class PraxisApplication {
 
     }
 }
-
