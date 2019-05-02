@@ -22,8 +22,8 @@ Praxisaufgabe (maximal 75 Punkte):
     Auch für teilweise korrekte Lösungen werden Punkte vergeben.
 
     Bitte lassen Sie die Dateien 'Monom.bak', 'Polynom.bak' und 'TestApplication.bak'
-    unverändert. Diese Dateien enthalten Kopien der entsprechenden .java-Dateien um bei Bedarf
-    verloren gegangene Textteile wiederherstellen zu können.
+    unverändert. Diese Dateien enthalten Kopien der entsprechenden .java-Dateien damit Sie
+    bei Bedarf Textteile wiederherstellen können.
 
     Punkte (in Summe maximal 75):
 
