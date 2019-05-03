@@ -1,21 +1,21 @@
-// This class represents monoms of the form a*x^d ("a mal x hoch d"), where
-// 'a' is the coefficient of the monom and 'd' is the degree.
+// This class represents monomials of the form a*x^d ("a mal x hoch d"), where
+// 'a' is the coefficient of the monomial and 'd' is the degree.
 public class Monom {
 
     //TODO: declare variables
 
-    // A constructor with the coefficient 'coeff' and the 'degree' of this monom.
+    // A constructor with the coefficient 'coeff' and the 'degree' of this monomial.
     public Monom(int coeff, int degree) {
         // TODO: implement this constructor
     }
 
-    // Copy-constructor: uses 'coeff' and 'degree' of 'm' to initialize this monom.
+    // Copy-constructor: uses 'coeff' and 'degree' of 'm' to initialize this monomial.
     public Monom(Monom m) {
         // TODO: implement this constructor
     }
 
-    // Adds the monom 'm' to this monom, if both monoms have the same degree.
-    // In this case this monom's coefficient is replaced by the sum of this monom's
+    // Adds the monomial 'm' to this monomial, if both monomials have the same degree.
+    // In this case this monomial's coefficient is replaced by the sum of this monomial's
     // coefficient and the coefficient of 'm'. In this case the method returns 'true'.
     // If 'm' has not the same degree as 'this', the method has no effect and
     // returns 'false'.
@@ -30,7 +30,7 @@ public class Monom {
         return false;
     }
 
-    // Returns the value of the monom for a specified value of 'x'
+    // Returns the value of the monomial for a specified value of 'x'
     public int eval(int x) {
         // TODO: implement this method
         return 0;
