@@ -1,0 +1,8 @@
+dist: trusty
+
+addons:
+    sonarcloud:
+        organization: "xeleron-github" # the key of the org you chose at step #3
+
+script:
+    - sonar-scanner
